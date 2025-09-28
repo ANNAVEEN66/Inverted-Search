@@ -1,0 +1,46 @@
+Name: mule vijay kumar Reddy
+Date:30/11/2024 
+
+THE PROJECT : INVERTED SEARCH
+         Main moto of the project is to map the given words to the documentation.
+    In inverted search there are different ways to collect or to document the data using searching they are
+    1.Create database
+    2.Display database
+    3.Search database
+    4.Save database
+    5.Update database
+Let us discuss each function....
+
+Validation :Firstly we have to do the validation of every data like .txt or not and extension of the size and valide file or 
+not and duplicate files are not allowed by using validation
+First we have to create hashtable for create database.
+
+1.Create database : In create database we have to create the data using read mode "r"  and open the file in 
+read mode.Read the data from the file.
+Check whether the given word is %97 are not all characters must be in lower case letters only using %97. 
+Compare each word with the index and whether the given input is same or not we have to check with temp variable.
+After every data we have to close the file using fclose function.
+Every time we have to validate the each index and compare each word using index.
+
+2.Display database : In display database we have to display each data with the help of using files in "w" mode.
+In diplay mode we have to check whether the given character is valid or not in this only we have to check 26 alphabets
+and NULL character and new line only 28 are valid in this function.
+If the different data is presenty means we can give the error message the character is invalid.
+We have to check with the main node with subnode link is present or not And in printing we have to check with the
+index and file count,word,file name,and word count.These can be valid for displaying the data in display mode.
+
+3.Search database : In search database we have to read the word from the user and take on temp variable and then
+we have to compare the main node with the temp link nd sub node with main subnode link and then find the index
+and check for word in index then if itb is found print the file count,file name,word count.
+If the word is not found then print word is not found.
+
+4.Save database : In save database we have to save the data in a another file by the user can read the file and
+check whether the file is .txt or not and do validation for each.
+For save database we have to give each with the # and for every character is given by semicolon(;),and for index(#)
+for word we have to separate with semicolon(;) and file count(;),file name(;) and word count(:) and finally we have 
+to end with #.Finally the data which we have saved in the file i.e f1.txt f2.txt f3.txt these are stored in a another
+file given by user and that is stored in a backup.txt with the different forms #,; and etc.
+
+5.Update database : In update database we have to update the new data which we can store in anotther file and save
+it and then we have to update the data in a backup file.so the new data also updated into that file.
+
